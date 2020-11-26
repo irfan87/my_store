@@ -6,9 +6,17 @@
 	"author": "Ahmad Irfan Mohamamd Shukri <nerve2009@yahoo.com>",
 	"license": "MIT",
 	"dependencies": {
+		"dotenv": "^8.2.0",
 		"express": "^4.17.1"
 	},
 	"scripts": {
-		"start": "node server/server"
+		"start": "node server/server",
+		"server": "nodemon server/server",
+		"client": "cd client && yarn start",
+		"dev": "concurrently \"yarn run server\" \"yarn run client\""
+	},
+	"devDependencies": {
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.6"
 	}
 }
