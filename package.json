@@ -2,6 +2,7 @@
 	"name": "my_store",
 	"version": "1.0.0",
 	"main": "index.js",
+	"type": "module",
 	"repository": "git@github.com:irfan87/my_store.git",
 	"author": "Ahmad Irfan Mohamamd Shukri <nerve2009@yahoo.com>",
 	"license": "MIT",
