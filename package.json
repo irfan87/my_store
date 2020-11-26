@@ -7,8 +7,10 @@
 	"author": "Ahmad Irfan Mohamamd Shukri <nerve2009@yahoo.com>",
 	"license": "MIT",
 	"dependencies": {
+		"colors": "^1.4.0",
 		"dotenv": "^8.2.0",
-		"express": "^4.17.1"
+		"express": "^4.17.1",
+		"mongoose": "^5.10.16"
 	},
 	"scripts": {
 		"start": "node server/server",
